@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ce4045;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#logo {
+    width: 45px;
+}
+
+.navitem {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.navitem:hover {
+    text-decoration: underline;
+    color: rgb(48, 48, 48);
+}
+
+.videos {
+    width: 32%vw;
+    margin: 2vw;
+}
